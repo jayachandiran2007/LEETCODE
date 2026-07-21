@@ -1,6 +1,6 @@
 class Solution:
     def twoSum(self, nums, target):
-        m = {}
+        m = {} #001
         for i, n in enumerate(nums):
             if target - n in m:
                 return [m[target - n], i]
